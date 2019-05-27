@@ -90,4 +90,82 @@ class Array: NSObject {
         return 0
     }
 
+    /// Given n non-negative integers a1, a2, ..., an , where each represents a point at coordinate (i, ai).
+    /// n vertical lines are drawn such that the two endpoints of line i is at (i, ai) and (i, 0).
+    /// Find two lines, which together with x-axis forms a container, such that the container contains the most water.
+    ///
+    /// - Parameter height: The height array.
+    /// - Returns: The max area.
+    func maxArea(_ height: [Int]) -> Int {
+        var i = 0
+        var j = height.endIndex - 1
+        var area = 0
+
+        while i < j {
+            let width = j - i
+            
+            var h = 0
+            if height[i] < height[j] {
+                h = height[i]
+                i += 1
+            } else {
+                h = height[j]
+                j -= 1
+            }
+
+            let currentArea = width * h
+            area = area < currentArea ? currentArea : area
+        }
+
+        return area
+    }
+
+    /// Given an array nums of n integers, are there elements a, b, c in nums such that a + b + c = 0? Find all unique triplets in the array which gives the sum of zero.
+    ///
+    /// - Parameter nums: The nums array.
+    /// - Returns: All elements a, b, c arrays.
+    func threeSum(_ nums: [Int]) -> [[Int]] {
+        var nums = nums
+        nums.sort()
+
+        var result = [[Int]]()
+        var i = 0
+        while i < nums.endIndex - 2 {
+            let first = nums[i]
+            let target = -first
+
+            var low = i + 1
+            var high = nums.endIndex - 1
+            while low < high {
+                let second = nums[low]
+                let third = nums[high]
+                if second + third < target {
+                    low += 1
+                    continue
+                }
+
+                if second + third > target {
+                    high -= 1
+                    continue
+                }
+
+                result.append([first, second, third])
+
+                while nums[low] == second && low < nums.endIndex - 1 {
+                    low += 1
+                }
+
+                while nums[high] == third && high > low {
+                    high -= 1
+                }
+            }
+
+            while nums[i] == first && i < nums.endIndex - 2 {
+                i += 1
+            }
+        }
+
+        return result
+    }
+
 }
