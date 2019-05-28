@@ -277,4 +277,27 @@ class Array: NSObject {
         return result
     }
 
+    /// Given a sorted array nums, remove the duplicates in-place such that each element appear only once and return the new length.
+    ///
+    /// - Parameter nums: The sorted nums array.
+    /// - Returns: The length of new array which removed the duplicates.
+    func removeDuplicates(_ nums: inout [Int]) -> Int {
+        if nums.isEmpty {
+            return 0
+        }
+
+        var i = 0
+        var j = 1
+        while j < nums.endIndex {
+            if nums[j] > nums[i] {
+                i += 1
+                nums[i] = nums[j]
+            }
+
+            j += 1
+        }
+
+        return i + 1
+    }
+
 }
