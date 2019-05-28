@@ -125,8 +125,7 @@ class Array: NSObject {
     /// - Parameter nums: The nums array.
     /// - Returns: All elements a, b, c arrays.
     func threeSum(_ nums: [Int]) -> [[Int]] {
-        var nums = nums
-        nums.sort()
+        var nums = nums.sorted()
 
         var result = [[Int]]()
         var i = 0
@@ -166,6 +165,56 @@ class Array: NSObject {
         }
 
         return result
+    }
+
+    /// Given an array nums of n integers and an integer target, find three integers in nums such that the sum is closest to target.
+    /// Return the sum of the three integers. You may assume that each input would have exactly one solution.
+    ///
+    /// - Parameters:
+    ///   - nums: The nums array.
+    ///   - target: The sum target.
+    /// - Returns: The sum of the three nums closest to target.
+    func threeSumClosest(_ nums: [Int], _ target: Int) -> Int {
+        var nums = nums.sorted()
+
+        var minGap = Int.max
+        var i = 0
+        while i < nums.endIndex - 2 {
+            let first = nums[i]
+
+            var low = i + 1
+            var high = nums.endIndex - 1
+            while low < high {
+                let second = nums[low]
+                let third = nums[high]
+                let sum = first + second + third
+
+                let gap = sum - target
+                if gap == 0 {
+                    return target
+                }
+
+                if gap < 0 {
+                    minGap = abs(minGap) > abs(gap) ? gap : minGap
+
+                    low += 1
+                    continue
+                }
+
+                if gap > 0 {
+                    minGap = abs(minGap) > abs(gap) ? gap : minGap
+
+                    high -= 1
+                    continue
+                }
+            }
+
+            while first == nums[i] && i < nums.endIndex - 2 {
+                i += 1
+            }
+        }
+
+        return target + minGap
     }
 
 }
