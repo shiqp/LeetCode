@@ -217,4 +217,64 @@ class Array: NSObject {
         return target + minGap
     }
 
+    /// Given an array nums of n integers and an integer target, are there elements a, b, c, and d in nums such that a + b + c + d = target?
+    /// Find all unique quadruplets in the array which gives the sum of target.
+    ///
+    /// - Parameters:
+    ///   - nums: The nums array.
+    ///   - target: The sum target.
+    /// - Returns: The elements a, b, c, d pairs that their sum is equal to the target.
+    func fourSum(_ nums: [Int], _ target: Int) -> [[Int]] {
+        var nums = nums.sorted()
+
+        var result = [[Int]]()
+        var i = 0
+        while i < nums.endIndex - 3 {
+            let first = nums[i]
+            var j = i + 1
+
+            while j < nums.endIndex - 2 {
+                let second = nums[j]
+
+                var low = j + 1
+                var high = nums.endIndex - 1
+
+                while low < high {
+                    let third = nums[low]
+                    let fourth = nums[high]
+
+                    let sum = first + second + third + fourth
+                    if sum < target {
+                        low += 1
+                        continue
+                    }
+
+                    if sum > target {
+                        high -= 1
+                        continue
+                    }
+
+                    result.append([first, second, third, fourth])
+
+                    while nums[low] == third && low < nums.endIndex - 1 {
+                        low += 1
+                    }
+
+                    while nums[high] == fourth && high > low {
+                        high -= 1
+                    }
+                }
+
+                while nums[j] == second && j < nums.endIndex - 2 {
+                    j += 1
+                }
+            }
+
+            while nums[i] == first && i < nums.endIndex - 3 {
+                i += 1
+            }
+        }
+        return result
+    }
+
 }
