@@ -15,7 +15,8 @@ class ViewController: UIViewController {
         
         print(self)
         let array = Array()
-        print(array.findMedianSortedArrays([1, 2], [3, 4]))
+        let binarySearch = BinarySearch()
+        print(binarySearch.divide(-2147483648, -1))
     }
     
     /// Given a string s consists of upper/lower-case alphabets and empty space characters ' ', return the length of last word in the string.

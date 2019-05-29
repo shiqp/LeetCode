@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA3A4490229D31A800FA58C3 /* BinarySearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3A448F229D31A800FA58C3 /* BinarySearch.swift */; };
 		DA3F0A8E2296405D004E7E09 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3F0A8D2296405D004E7E09 /* AppDelegate.swift */; };
 		DA3F0A902296405D004E7E09 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3F0A8F2296405D004E7E09 /* ViewController.swift */; };
 		DA3F0A932296405D004E7E09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA3F0A912296405D004E7E09 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DA3A448F229D31A800FA58C3 /* BinarySearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearch.swift; sourceTree = "<group>"; };
 		DA3F0A8A2296405D004E7E09 /* LeetCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeetCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA3F0A8D2296405D004E7E09 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DA3F0A8F2296405D004E7E09 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				DA3F0A962296405D004E7E09 /* LaunchScreen.storyboard */,
 				DA3F0A992296405D004E7E09 /* Info.plist */,
 				DA3F0A9F22966EEC004E7E09 /* Array.swift */,
+				DA3A448F229D31A800FA58C3 /* BinarySearch.swift */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA3A4490229D31A800FA58C3 /* BinarySearch.swift in Sources */,
 				DA3F0AA022966EEC004E7E09 /* Array.swift in Sources */,
 				DA3F0A902296405D004E7E09 /* ViewController.swift in Sources */,
 				DA3F0A8E2296405D004E7E09 /* AppDelegate.swift in Sources */,
