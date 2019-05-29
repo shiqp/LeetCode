@@ -146,4 +146,58 @@ class BinarySearch: NSObject {
         return -1
     }
 
+    /// Given an array of integers nums sorted in ascending order, find the starting and ending position of a given target value.
+    /// Your algorithm's runtime complexity must be in the order of O(log n).
+    /// If the target is not found in the array, return [-1, -1].
+    ///
+    /// - Parameters:
+    ///   - nums: The array of integers nums sorted in ascending order.
+    ///   - target: The target.
+    /// - Returns: The starting and ending position of the given target value. If the target is not found in the array, return [-1, -1].
+    func searchRange(_ nums: [Int], _ target: Int) -> [Int] {
+        var start = -1
+        var end = -1
+
+        var low = 0
+        var high = nums.endIndex - 1
+        while low <= high {
+            let mid = (low + high) / 2
+            if nums[mid] > target {
+                high = mid - 1
+                continue
+            }
+
+            if nums[mid] < target {
+                low = mid + 1
+                continue
+            }
+
+            var sLow = low
+            var sHigh = mid
+            while start == -1 || nums[start] != target || (start != 0 && nums[start - 1] == target) {
+                start = (sLow + sHigh) / 2
+                if nums[start] == target {
+                    sHigh = start - 1
+                } else {
+                    sLow = start + 1
+                }
+            }
+
+            var eLow = mid
+            var eHigh = high
+            while end == -1 || nums[end] != target || (end != nums.endIndex - 1 && nums[end + 1] == target) {
+                end = (eLow + eHigh) / 2
+                if nums[end] == target {
+                    eLow = end + 1
+                } else {
+                    eHigh = end - 1
+                }
+            }
+
+            break
+        }
+
+        return [start, end]
+    }
+
 }

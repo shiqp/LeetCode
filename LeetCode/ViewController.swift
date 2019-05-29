@@ -14,9 +14,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         print(self)
-        let array = Array()
         let binarySearch = BinarySearch()
-        print(binarySearch.divide(-2147483648, -1))
+        print(binarySearch.searchRange([0,0,1,1,1,2,2,3,3,3,4,4,4,4,5,5,6,6,6,8,10,10], 4))
     }
     
     /// Given a string s consists of upper/lower-case alphabets and empty space characters ' ', return the length of last word in the string.
