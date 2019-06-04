@@ -200,4 +200,27 @@ class BinarySearch: NSObject {
         return [start, end]
     }
 
+    /// Implement pow(x, n), which calculates x raised to the power n.
+    ///
+    /// - Parameters:
+    ///   - x: The num x.
+    ///   - n: The Power n.
+    /// - Returns: The result which calculates x raised to the power n.
+    func myPow(_ x: Double, _ n: Int) -> Double {
+        if n == 0 {
+            return 1
+        }
+
+        let result = myPow(x, n / 2)
+        if n % 2 == 0 {
+            return result * result
+        }
+
+        if n > 0 {
+            return result * result * x
+        } else {
+            return result * result / x
+        }
+    }
+
 }
