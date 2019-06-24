@@ -223,4 +223,29 @@ class BinarySearch: NSObject {
         }
     }
 
+    /// Implement int sqrt(int x).
+    /// Compute and return the square root of x, where x is guaranteed to be a non-negative integer.
+    /// Since the return type is an integer, the decimal digits are truncated and only the integer part of the result is returned.
+    ///
+    /// - Parameter x: The num x.
+    /// - Returns: The result of sqrt method.
+    func mySqrt(_ x: Int) -> Int {
+        var low = 0
+        var high = x
+        var result = 0
+
+        while low <= high {
+            let mid = (low + high) / 2
+            if mid * mid == x {
+                return mid
+            } else if mid * mid > x {
+                high = mid - 1
+            } else {
+                low = mid + 1
+                result = mid
+            }
+        }
+        return result
+    }
+
 }
