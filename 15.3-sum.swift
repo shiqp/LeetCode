@@ -3,7 +3,7 @@
  *
  * [15] 3Sum
  */
-class Solution {
+extension Solution {
     func threeSum(_ nums: [Int]) -> [[Int]] {
         var nums = nums
         nums.sort()

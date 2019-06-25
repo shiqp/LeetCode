@@ -3,7 +3,7 @@
  *
  * [50] Pow(x, n)
  */
-class Solution {
+extension Solution {
     func myPow(_ x: Double, _ n: Int) -> Double {
         if n == 0 {
             return 1

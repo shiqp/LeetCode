@@ -3,7 +3,7 @@
  *
  * [26] Remove Duplicates from Sorted Array
  */
-class Solution {
+extension Solution {
     func removeDuplicates(_ nums: inout [Int]) -> Int {
         if nums.isEmpty {
             return 0

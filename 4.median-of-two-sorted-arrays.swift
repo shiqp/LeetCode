@@ -3,7 +3,7 @@
  *
  * [4] Median of Two Sorted Arrays
  */
-class Solution {
+extension Solution {
     func findMedianSortedArrays(_ nums1: [Int], _ nums2: [Int]) -> Double {
         var nums1 = nums1, nums2 = nums2
         if nums1.count > nums2.count { // Ensure nums1's count <= nums2's count

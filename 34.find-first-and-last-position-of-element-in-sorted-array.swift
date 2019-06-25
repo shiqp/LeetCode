@@ -3,7 +3,7 @@
  *
  * [34] Find First and Last Position of Element in Sorted Array
  */
-class Solution {
+extension Solution {
     func searchRange(_ nums: [Int], _ target: Int) -> [Int] {
         var start = -1
         var end = -1

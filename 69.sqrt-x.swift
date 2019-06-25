@@ -3,7 +3,7 @@
  *
  * [69] Sqrt(x)
  */
-class Solution {
+extension Solution {
     func mySqrt(_ x: Int) -> Int {
         var low = 0
         var high = x

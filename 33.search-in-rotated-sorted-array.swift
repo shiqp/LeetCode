@@ -3,7 +3,7 @@
  *
  * [33] Search in Rotated Sorted Array
  */
-class Solution {
+extension Solution {
     func search(_ nums: [Int], _ target: Int) -> Int {
         var low = 0
         var high = nums.endIndex - 1
