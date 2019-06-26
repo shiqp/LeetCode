@@ -30,6 +30,7 @@
 		DA623F2B22C214F000539516 /* 95.unique-binary-search-trees-ii.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA623F2A22C214F000539516 /* 95.unique-binary-search-trees-ii.swift */; };
 		DA623F2D22C215AF00539516 /* 96.unique-binary-search-trees.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA623F2C22C215AF00539516 /* 96.unique-binary-search-trees.swift */; };
 		DA623F2F22C221E600539516 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA623F2E22C221E600539516 /* TreeNode.swift */; };
+		DA623F3122C32DC400539516 /* 98.validate-binary-search-tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA623F3022C32DC400539516 /* 98.validate-binary-search-tree.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +59,7 @@
 		DA623F2A22C214F000539516 /* 95.unique-binary-search-trees-ii.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "95.unique-binary-search-trees-ii.swift"; sourceTree = SOURCE_ROOT; };
 		DA623F2C22C215AF00539516 /* 96.unique-binary-search-trees.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "96.unique-binary-search-trees.swift"; sourceTree = SOURCE_ROOT; };
 		DA623F2E22C221E600539516 /* TreeNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeNode.swift; sourceTree = "<group>"; };
+		DA623F3022C32DC400539516 /* 98.validate-binary-search-tree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "98.validate-binary-search-tree.swift"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +144,7 @@
 		DA623F2722C2119B00539516 /* Tree */ = {
 			isa = PBXGroup;
 			children = (
+				DA623F3022C32DC400539516 /* 98.validate-binary-search-tree.swift */,
 				DA623F2C22C215AF00539516 /* 96.unique-binary-search-trees.swift */,
 				DA623F2A22C214F000539516 /* 95.unique-binary-search-trees-ii.swift */,
 				DA623F2822C211AD00539516 /* 94.binary-tree-inorder-traversal.swift */,
@@ -226,6 +229,7 @@
 				DA623F1322C1F61A00539516 /* 15.3-sum.swift in Sources */,
 				DA623F2F22C221E600539516 /* TreeNode.swift in Sources */,
 				DA623F0C22C1F55100539516 /* 146.lru-cache.swift in Sources */,
+				DA623F3122C32DC400539516 /* 98.validate-binary-search-tree.swift in Sources */,
 				DA623F2022C1F86D00539516 /* 33.search-in-rotated-sorted-array.swift in Sources */,
 				DA3F0AA022966EEC004E7E09 /* Solution.swift in Sources */,
 				DA623F2222C1F86D00539516 /* 69.sqrt-x.swift in Sources */,
