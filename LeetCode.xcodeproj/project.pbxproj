@@ -27,6 +27,9 @@
 		DA623F2322C1F86D00539516 /* 29.divide-two-integers.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA623F1E22C1F86D00539516 /* 29.divide-two-integers.swift */; };
 		DA623F2422C1F86D00539516 /* 34.find-first-and-last-position-of-element-in-sorted-array.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA623F1F22C1F86D00539516 /* 34.find-first-and-last-position-of-element-in-sorted-array.swift */; };
 		DA623F2922C211AD00539516 /* 94.binary-tree-inorder-traversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA623F2822C211AD00539516 /* 94.binary-tree-inorder-traversal.swift */; };
+		DA623F2B22C214F000539516 /* 95.unique-binary-search-trees-ii.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA623F2A22C214F000539516 /* 95.unique-binary-search-trees-ii.swift */; };
+		DA623F2D22C215AF00539516 /* 96.unique-binary-search-trees.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA623F2C22C215AF00539516 /* 96.unique-binary-search-trees.swift */; };
+		DA623F2F22C221E600539516 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA623F2E22C221E600539516 /* TreeNode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +55,9 @@
 		DA623F1E22C1F86D00539516 /* 29.divide-two-integers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "29.divide-two-integers.swift"; sourceTree = SOURCE_ROOT; };
 		DA623F1F22C1F86D00539516 /* 34.find-first-and-last-position-of-element-in-sorted-array.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "34.find-first-and-last-position-of-element-in-sorted-array.swift"; sourceTree = SOURCE_ROOT; };
 		DA623F2822C211AD00539516 /* 94.binary-tree-inorder-traversal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "94.binary-tree-inorder-traversal.swift"; sourceTree = SOURCE_ROOT; };
+		DA623F2A22C214F000539516 /* 95.unique-binary-search-trees-ii.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "95.unique-binary-search-trees-ii.swift"; sourceTree = SOURCE_ROOT; };
+		DA623F2C22C215AF00539516 /* 96.unique-binary-search-trees.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "96.unique-binary-search-trees.swift"; sourceTree = SOURCE_ROOT; };
+		DA623F2E22C221E600539516 /* TreeNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeNode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,7 +142,10 @@
 		DA623F2722C2119B00539516 /* Tree */ = {
 			isa = PBXGroup;
 			children = (
+				DA623F2C22C215AF00539516 /* 96.unique-binary-search-trees.swift */,
+				DA623F2A22C214F000539516 /* 95.unique-binary-search-trees-ii.swift */,
 				DA623F2822C211AD00539516 /* 94.binary-tree-inorder-traversal.swift */,
+				DA623F2E22C221E600539516 /* TreeNode.swift */,
 			);
 			name = Tree;
 			sourceTree = "<group>";
@@ -213,7 +222,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA623F2422C1F86D00539516 /* 34.find-first-and-last-position-of-element-in-sorted-array.swift in Sources */,
+				DA623F2D22C215AF00539516 /* 96.unique-binary-search-trees.swift in Sources */,
 				DA623F1322C1F61A00539516 /* 15.3-sum.swift in Sources */,
+				DA623F2F22C221E600539516 /* TreeNode.swift in Sources */,
 				DA623F0C22C1F55100539516 /* 146.lru-cache.swift in Sources */,
 				DA623F2022C1F86D00539516 /* 33.search-in-rotated-sorted-array.swift in Sources */,
 				DA3F0AA022966EEC004E7E09 /* Solution.swift in Sources */,
@@ -224,6 +235,7 @@
 				DA623F1A22C1F7DD00539516 /* 26.remove-duplicates-from-sorted-array.swift in Sources */,
 				DA623F2322C1F86D00539516 /* 29.divide-two-integers.swift in Sources */,
 				DA3F0A902296405D004E7E09 /* ViewController.swift in Sources */,
+				DA623F2B22C214F000539516 /* 95.unique-binary-search-trees-ii.swift in Sources */,
 				DA623F1822C1F66000539516 /* 11.container-with-most-water.swift in Sources */,
 				DA623F1422C1F61A00539516 /* 4.median-of-two-sorted-arrays.swift in Sources */,
 				DA623F1522C1F61A00539516 /* 16.3-sum-closest.swift in Sources */,
