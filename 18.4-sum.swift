@@ -5,7 +5,7 @@
  */
 extension Solution {
     func fourSum(_ nums: [Int], _ target: Int) -> [[Int]] {
-        var nums = nums.sorted()
+        let nums = nums.sorted()
 
         var result = [[Int]]()
         var i = 0

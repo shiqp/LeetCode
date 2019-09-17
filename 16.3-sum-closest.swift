@@ -5,7 +5,7 @@
  */
 extension Solution {
     func threeSumClosest(_ nums: [Int], _ target: Int) -> Int {
-        var nums = nums.sorted()
+        let nums = nums.sorted()
 
         var minGap = Int.max
         var i = 0
