@@ -37,6 +37,7 @@
 		DAE0110022C4CEEE00A3FEB2 /* 99.recover-binary-search-tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE010FF22C4CEEE00A3FEB2 /* 99.recover-binary-search-tree.swift */; };
 		DAF23B3C232F8378000747D2 /* 3.longest-substring-without-repeating-characters.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF23B3B232F8378000747D2 /* 3.longest-substring-without-repeating-characters.swift */; };
 		DAF23B3E232F8AC8000747D2 /* 5.longest-palindromic-substring.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF23B3D232F8AC8000747D2 /* 5.longest-palindromic-substring.swift */; };
+		DAF23B4023308BA5000747D2 /* 6.zig-zag-conversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF23B3F23308BA4000747D2 /* 6.zig-zag-conversion.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -72,6 +73,7 @@
 		DAE010FF22C4CEEE00A3FEB2 /* 99.recover-binary-search-tree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "99.recover-binary-search-tree.swift"; sourceTree = SOURCE_ROOT; };
 		DAF23B3B232F8378000747D2 /* 3.longest-substring-without-repeating-characters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "3.longest-substring-without-repeating-characters.swift"; sourceTree = SOURCE_ROOT; };
 		DAF23B3D232F8AC8000747D2 /* 5.longest-palindromic-substring.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "5.longest-palindromic-substring.swift"; sourceTree = SOURCE_ROOT; };
+		DAF23B3F23308BA4000747D2 /* 6.zig-zag-conversion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "6.zig-zag-conversion.swift"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,6 +175,7 @@
 		DAF23B3A232F836B000747D2 /* String */ = {
 			isa = PBXGroup;
 			children = (
+				DAF23B3F23308BA4000747D2 /* 6.zig-zag-conversion.swift */,
 				DAF23B3D232F8AC8000747D2 /* 5.longest-palindromic-substring.swift */,
 				DAF23B3B232F8378000747D2 /* 3.longest-substring-without-repeating-characters.swift */,
 			);
@@ -271,6 +274,7 @@
 				DA623F2322C1F86D00539516 /* 29.divide-two-integers.swift in Sources */,
 				DA3F0A902296405D004E7E09 /* ViewController.swift in Sources */,
 				DA623F2B22C214F000539516 /* 95.unique-binary-search-trees-ii.swift in Sources */,
+				DAF23B4023308BA5000747D2 /* 6.zig-zag-conversion.swift in Sources */,
 				DA623F1822C1F66000539516 /* 11.container-with-most-water.swift in Sources */,
 				DA623F1422C1F61A00539516 /* 4.median-of-two-sorted-arrays.swift in Sources */,
 				DA4744D82301A578007E0CB7 /* 102.binary-tree-level-order-traversal.swift in Sources */,
