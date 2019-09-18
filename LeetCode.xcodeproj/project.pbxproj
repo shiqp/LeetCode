@@ -16,6 +16,7 @@
 		DA405BA62332001F003FAD52 /* 10.regular-expression-matching.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA405BA52332001F003FAD52 /* 10.regular-expression-matching.swift */; };
 		DA405BA923321C1B003FAD52 /* 13.roman-to-integer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA405BA723321C1B003FAD52 /* 13.roman-to-integer.swift */; };
 		DA405BAA23321C1B003FAD52 /* 12.integer-to-roman.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA405BA823321C1B003FAD52 /* 12.integer-to-roman.swift */; };
+		DA405BAC23322609003FAD52 /* 17.letter-combinations-of-a-phone-number.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA405BAB23322609003FAD52 /* 17.letter-combinations-of-a-phone-number.swift */; };
 		DA4744D82301A578007E0CB7 /* 102.binary-tree-level-order-traversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4744D52301A578007E0CB7 /* 102.binary-tree-level-order-traversal.swift */; };
 		DA4744D92301A578007E0CB7 /* 100.same-tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4744D62301A578007E0CB7 /* 100.same-tree.swift */; };
 		DA4744DA2301A578007E0CB7 /* 101.symmetric-tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4744D72301A578007E0CB7 /* 101.symmetric-tree.swift */; };
@@ -56,6 +57,7 @@
 		DA405BA52332001F003FAD52 /* 10.regular-expression-matching.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "10.regular-expression-matching.swift"; sourceTree = SOURCE_ROOT; };
 		DA405BA723321C1B003FAD52 /* 13.roman-to-integer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "13.roman-to-integer.swift"; sourceTree = SOURCE_ROOT; };
 		DA405BA823321C1B003FAD52 /* 12.integer-to-roman.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "12.integer-to-roman.swift"; sourceTree = SOURCE_ROOT; };
+		DA405BAB23322609003FAD52 /* 17.letter-combinations-of-a-phone-number.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "17.letter-combinations-of-a-phone-number.swift"; sourceTree = SOURCE_ROOT; };
 		DA4744D52301A578007E0CB7 /* 102.binary-tree-level-order-traversal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "102.binary-tree-level-order-traversal.swift"; sourceTree = SOURCE_ROOT; };
 		DA4744D62301A578007E0CB7 /* 100.same-tree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "100.same-tree.swift"; sourceTree = SOURCE_ROOT; };
 		DA4744D72301A578007E0CB7 /* 101.symmetric-tree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "101.symmetric-tree.swift"; sourceTree = SOURCE_ROOT; };
@@ -183,6 +185,7 @@
 		DAF23B3A232F836B000747D2 /* String */ = {
 			isa = PBXGroup;
 			children = (
+				DA405BAB23322609003FAD52 /* 17.letter-combinations-of-a-phone-number.swift */,
 				DA405BA723321C1B003FAD52 /* 13.roman-to-integer.swift */,
 				DA405BA823321C1B003FAD52 /* 12.integer-to-roman.swift */,
 				DA405BA52332001F003FAD52 /* 10.regular-expression-matching.swift */,
@@ -265,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA405BAC23322609003FAD52 /* 17.letter-combinations-of-a-phone-number.swift in Sources */,
 				DA4744D92301A578007E0CB7 /* 100.same-tree.swift in Sources */,
 				DA623F2422C1F86D00539516 /* 34.find-first-and-last-position-of-element-in-sorted-array.swift in Sources */,
 				DAF23B3C232F8378000747D2 /* 3.longest-substring-without-repeating-characters.swift in Sources */,
