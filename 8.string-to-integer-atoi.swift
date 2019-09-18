@@ -3,7 +3,7 @@
  *
  * [8] String to Integer (atoi)
  */
-class Solution {
+extension Solution {
     /*
     Implement atoi which converts a string to an integer.
 

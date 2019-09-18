@@ -16,7 +16,7 @@
  *     }
  * }
  */
-class Solution99 {
+extension Solution {
     var first: TreeNode?
     var second: TreeNode?
     var prev: TreeNode?
