@@ -126,7 +126,8 @@
 		DA3F0A8C2296405D004E7E09 /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
-				DA405BB4233326C9003FAD52 /* New Group */,
+				DA405BBF23332CEB003FAD52 /* Support */,
+				DA405BB4233326C9003FAD52 /* List */,
 				DAF23B3A232F836B000747D2 /* String */,
 				DA623F2722C2119B00539516 /* Tree */,
 				DA623F0E22C1F5F700539516 /* Array */,
@@ -142,13 +143,21 @@
 			path = LeetCode;
 			sourceTree = "<group>";
 		};
-		DA405BB4233326C9003FAD52 /* New Group */ = {
+		DA405BB4233326C9003FAD52 /* List */ = {
 			isa = PBXGroup;
 			children = (
 				DA405BB5233326E4003FAD52 /* 19.remove-nth-node-from-end-of-list.swift */,
-				DA405BB023323A42003FAD52 /* ListNode.swift */,
 			);
-			name = "New Group";
+			name = List;
+			sourceTree = "<group>";
+		};
+		DA405BBF23332CEB003FAD52 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				DA405BB023323A42003FAD52 /* ListNode.swift */,
+				DA623F2E22C221E600539516 /* TreeNode.swift */,
+			);
+			path = Support;
 			sourceTree = "<group>";
 		};
 		DA623F0822C1F53E00539516 /* Design */ = {
@@ -198,7 +207,6 @@
 				DA623F2C22C215AF00539516 /* 96.unique-binary-search-trees.swift */,
 				DA623F2A22C214F000539516 /* 95.unique-binary-search-trees-ii.swift */,
 				DA623F2822C211AD00539516 /* 94.binary-tree-inorder-traversal.swift */,
-				DA623F2E22C221E600539516 /* TreeNode.swift */,
 			);
 			name = Tree;
 			sourceTree = "<group>";
