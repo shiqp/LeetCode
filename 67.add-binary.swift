@@ -1,16 +1,9 @@
-//
-//  Array.swift
-//  LeetCode
-//
-//  Created by Qingpu Shi on 2019/5/23.
-//  Copyright © 2019 Qingpu Shi. All rights reserved.
-//
-
-import UIKit
-
-class Solution {
-    
-
+/*
+ * @lc app=leetcode id=67 lang=swift
+ *
+ * [67] Add Binary
+ */
+class Solution67 {
     /// Given two binary strings, return their sum (also a binary string).
     ///
     /// - Parameters:
@@ -58,3 +51,4 @@ class Solution {
         return sum
     }
 }
+
