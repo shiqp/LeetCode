@@ -14,12 +14,12 @@
  *     }
  * }
  */
-class Solution {
+class Solution23 {
     func mergeKLists(_ lists: [ListNode?]) -> ListNode? {
         if lists.count == 0 {
             return nil
         }
-        
+
         var lists = lists
         var gap = 1
         while gap < lists.count {
