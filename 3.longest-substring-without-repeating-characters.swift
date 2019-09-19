@@ -3,7 +3,7 @@
  *
  * [3] Longest Substring Without Repeating Characters
  */
-extension Solution {
+class Solution3 {
     func lengthOfLongestSubstring(_ s: String) -> Int {
         var map = [Character: Int]()
         var start = 0, i = 0, maxLength = 0

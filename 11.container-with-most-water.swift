@@ -3,7 +3,7 @@
  *
  * [11] Container With Most Water
  */
-extension Solution {
+class Solution11 {
     func maxArea(_ height: [Int]) -> Int {
         var i = 0
         var j = height.endIndex - 1

@@ -3,7 +3,7 @@
  *
  * [17] Letter Combinations of a Phone Number
  */
-class Solution {
+class Solution17 {
     let symbols = ["", "", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz"]
 
     func letterCombinations(_ digits: String) -> [String] {

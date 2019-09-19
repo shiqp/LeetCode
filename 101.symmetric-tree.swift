@@ -16,7 +16,7 @@
  *     }
  * }
  */
-extension Solution {
+class Solution101 {
     func isSymmetric(_ root: TreeNode?) -> Bool {
         return isMirror(root, root)
     }

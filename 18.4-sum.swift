@@ -3,7 +3,7 @@
  *
  * [18] 4Sum
  */
-extension Solution {
+class Solution18 {
     func fourSum(_ nums: [Int], _ target: Int) -> [[Int]] {
         let nums = nums.sorted()
 

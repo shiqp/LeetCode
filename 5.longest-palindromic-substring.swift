@@ -3,7 +3,7 @@
  *
  * [5] Longest Palindromic Substring
  */
-extension Solution {
+class Solution5 {
     func longestPalindrome(_ s: String) -> String {
         if s.count == 0 {
             return ""

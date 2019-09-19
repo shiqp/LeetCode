@@ -3,7 +3,7 @@
  *
  * [16] 3Sum Closest
  */
-extension Solution {
+class Solution16 {
     func threeSumClosest(_ nums: [Int], _ target: Int) -> Int {
         let nums = nums.sorted()
 

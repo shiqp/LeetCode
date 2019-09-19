@@ -16,7 +16,7 @@
  *     }
  * }
  */
-extension Solution {
+class Solution98 {
     func isValidBST(_ root: TreeNode?) -> Bool {
         return self.isValidBST(root: root, min: nil, max: nil)
     }

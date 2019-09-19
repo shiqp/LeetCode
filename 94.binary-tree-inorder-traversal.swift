@@ -16,7 +16,7 @@
  *     }
  * }
  */
-extension Solution {
+class Solution94 {
     func inorderTraversal(_ root: TreeNode?) -> [Int] {
         var result = [Int]()
 

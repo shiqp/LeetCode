@@ -16,7 +16,7 @@
  *     }
  * }
  */
-extension Solution {
+class Solution102 {
     func levelOrder(_ root: TreeNode?) -> [[Int]] {
         var result = [[Int]]()
         guard let root = root else {

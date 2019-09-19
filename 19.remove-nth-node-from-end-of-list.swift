@@ -14,7 +14,7 @@
  *     }
  * }
  */
-class Solution {
+class Solution19 {
     func removeNthFromEnd(_ head: ListNode?, _ n: Int) -> ListNode? {
         let node = ListNode(0)
         node.next = head

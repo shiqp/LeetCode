@@ -3,7 +3,7 @@
  *
  * [12] Integer to Roman
  */
-class Solution {
+class Solution12 {
     func intToRoman(_ num: Int) -> String {
         let radix = [1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1]
         let symbol = ["M", "CM", "D", "CD", "C", "XC", "L", "XL", "X", "IX", "V", "IV", "I"]

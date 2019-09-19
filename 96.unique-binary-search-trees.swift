@@ -3,7 +3,7 @@
  *
  * [96] Unique Binary Search Trees
  */
-extension Solution {
+class Solution96 {
     func numTrees(_ n: Int) -> Int {
         if n <= 2 {
             return n

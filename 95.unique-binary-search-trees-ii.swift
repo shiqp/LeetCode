@@ -16,7 +16,7 @@
  *     }
  * }
  */
-extension Solution {
+class Solution95 {
     func generateTrees(_ n: Int) -> [TreeNode?] {
         return self.generateTrees(start: 1, end: n)
     }

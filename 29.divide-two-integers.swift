@@ -3,7 +3,7 @@
  *
  * [29] Divide Two Integers
  */
-extension Solution {
+class Solution29 {
     func divide(_ dividend: Int, _ divisor: Int) -> Int {
         let isPositive = (dividend > 0 && divisor > 0) || (dividend < 0 && divisor < 0)
         var dividend: Int64 = abs(Int64(dividend))
