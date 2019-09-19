@@ -9,19 +9,6 @@
 import UIKit
 
 class Solution {
-    /// Given a string s consists of upper/lower-case alphabets and empty space characters ' ', return the length of last word in the string.
-    ///
-    /// - Parameter s: The string s consists of upper/lower-case alphabets and empty space characters ' '.
-    /// - Returns: The length of last word in the string.
-    func lengthOfLastWord(_ s: String) -> Int {
-        let substrings = s.split(separator: " ")
-        if let lastWord = substrings.last {
-            return lastWord.count
-        }
-
-        return 0
-    }
-
     /// Given a non-empty array of digits representing a non-negative integer, plus one to the integer.
     ///
     /// - Parameter digits: A non-empty array of digits representing a non-negative integer.
