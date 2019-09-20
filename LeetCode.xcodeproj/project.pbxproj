@@ -46,6 +46,7 @@
 		DA623F2D22C215AF00539516 /* 96.unique-binary-search-trees.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA623F2C22C215AF00539516 /* 96.unique-binary-search-trees.swift */; };
 		DA623F2F22C221E600539516 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA623F2E22C221E600539516 /* TreeNode.swift */; };
 		DA623F3122C32DC400539516 /* 98.validate-binary-search-tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA623F3022C32DC400539516 /* 98.validate-binary-search-tree.swift */; };
+		DA7309C72333AE1B007B14F7 /* 30.substring-with-concatenation-of-all-words.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7309C62333AE1B007B14F7 /* 30.substring-with-concatenation-of-all-words.swift */; };
 		DAA108D82333808F00B2B445 /* 24.swap-nodes-in-pairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA108D72333808F00B2B445 /* 24.swap-nodes-in-pairs.swift */; };
 		DAA108DA2333850800B2B445 /* 25.reverse-nodes-in-k-group.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA108D92333850800B2B445 /* 25.reverse-nodes-in-k-group.swift */; };
 		DAE0110022C4CEEE00A3FEB2 /* 99.recover-binary-search-tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE010FF22C4CEEE00A3FEB2 /* 99.recover-binary-search-tree.swift */; };
@@ -96,6 +97,7 @@
 		DA623F2C22C215AF00539516 /* 96.unique-binary-search-trees.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "96.unique-binary-search-trees.swift"; sourceTree = SOURCE_ROOT; };
 		DA623F2E22C221E600539516 /* TreeNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeNode.swift; sourceTree = "<group>"; };
 		DA623F3022C32DC400539516 /* 98.validate-binary-search-tree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "98.validate-binary-search-tree.swift"; sourceTree = SOURCE_ROOT; };
+		DA7309C62333AE1B007B14F7 /* 30.substring-with-concatenation-of-all-words.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "30.substring-with-concatenation-of-all-words.swift"; sourceTree = SOURCE_ROOT; };
 		DAA108D72333808F00B2B445 /* 24.swap-nodes-in-pairs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "24.swap-nodes-in-pairs.swift"; sourceTree = SOURCE_ROOT; };
 		DAA108D92333850800B2B445 /* 25.reverse-nodes-in-k-group.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "25.reverse-nodes-in-k-group.swift"; sourceTree = SOURCE_ROOT; };
 		DAE010FF22C4CEEE00A3FEB2 /* 99.recover-binary-search-tree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "99.recover-binary-search-tree.swift"; sourceTree = SOURCE_ROOT; };
@@ -227,6 +229,7 @@
 			children = (
 				DA405BBD23332C79003FAD52 /* 67.add-binary.swift */,
 				DA405BB923332B36003FAD52 /* 58.length-of-last-word.swift */,
+				DA7309C62333AE1B007B14F7 /* 30.substring-with-concatenation-of-all-words.swift */,
 				DA405BC023332D7F003FAD52 /* 22.generate-parentheses.swift */,
 				DA405BAB23322609003FAD52 /* 17.letter-combinations-of-a-phone-number.swift */,
 				DA405BA723321C1B003FAD52 /* 13.roman-to-integer.swift */,
@@ -342,6 +345,7 @@
 				DA623F2322C1F86D00539516 /* 29.divide-two-integers.swift in Sources */,
 				DA3F0A902296405D004E7E09 /* ViewController.swift in Sources */,
 				DA405BB8233327E1003FAD52 /* 1.two-sum.swift in Sources */,
+				DA7309C72333AE1B007B14F7 /* 30.substring-with-concatenation-of-all-words.swift in Sources */,
 				DA405BBE23332C79003FAD52 /* 67.add-binary.swift in Sources */,
 				DA623F2B22C214F000539516 /* 95.unique-binary-search-trees-ii.swift in Sources */,
 				DAF23B4023308BA5000747D2 /* 6.zig-zag-conversion.swift in Sources */,
