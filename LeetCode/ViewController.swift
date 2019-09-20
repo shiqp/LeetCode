@@ -12,9 +12,6 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        let solution = Solution()
-        let _ = solution.findSubstring("wordgoodgoodgoodbestword", ["word","good","best","good"])
     }
     
 }
