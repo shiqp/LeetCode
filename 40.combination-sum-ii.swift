@@ -53,7 +53,7 @@
  */
 
 // @lc code=start
-class Solution {
+class Solution40 {
     func combinationSum2(_ candidates: [Int], _ target: Int) -> [[Int]] {
         if let combinations = combinationSum2(candidates.sorted(), 0, target) {
             return combinations

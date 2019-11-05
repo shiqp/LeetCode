@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		DA19AAE9237127F500618379 /* 39.combination-sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA19AAE8237127F500618379 /* 39.combination-sum.swift */; };
 		DA19AAEB23713D8300618379 /* 40.combination-sum-ii.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA19AAEA23713D8300618379 /* 40.combination-sum-ii.swift */; };
+		DA19AAED2371554400618379 /* 41.first-missing-positive.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA19AAEC2371554400618379 /* 41.first-missing-positive.swift */; };
 		DA3F0A8E2296405D004E7E09 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3F0A8D2296405D004E7E09 /* AppDelegate.swift */; };
 		DA3F0A902296405D004E7E09 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3F0A8F2296405D004E7E09 /* ViewController.swift */; };
 		DA3F0A932296405D004E7E09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA3F0A912296405D004E7E09 /* Main.storyboard */; };
@@ -62,6 +63,7 @@
 /* Begin PBXFileReference section */
 		DA19AAE8237127F500618379 /* 39.combination-sum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "39.combination-sum.swift"; sourceTree = SOURCE_ROOT; };
 		DA19AAEA23713D8300618379 /* 40.combination-sum-ii.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "40.combination-sum-ii.swift"; sourceTree = SOURCE_ROOT; };
+		DA19AAEC2371554400618379 /* 41.first-missing-positive.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "41.first-missing-positive.swift"; sourceTree = SOURCE_ROOT; };
 		DA3F0A8A2296405D004E7E09 /* LeetCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeetCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA3F0A8D2296405D004E7E09 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DA3F0A8F2296405D004E7E09 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -215,6 +217,7 @@
 				DA7309C823349F8B007B14F7 /* 31.next-permutation.swift */,
 				DA19AAE8237127F500618379 /* 39.combination-sum.swift */,
 				DA19AAEA23713D8300618379 /* 40.combination-sum-ii.swift */,
+				DA19AAEC2371554400618379 /* 41.first-missing-positive.swift */,
 				DA405BBB23332BD5003FAD52 /* 66.plus-one.swift */,
 			);
 			name = Array;
@@ -338,6 +341,7 @@
 				DAA108DA2333850800B2B445 /* 25.reverse-nodes-in-k-group.swift in Sources */,
 				DA623F2F22C221E600539516 /* TreeNode.swift in Sources */,
 				DA623F0C22C1F55100539516 /* 146.lru-cache.swift in Sources */,
+				DA19AAED2371554400618379 /* 41.first-missing-positive.swift in Sources */,
 				DA623F3122C32DC400539516 /* 98.validate-binary-search-tree.swift in Sources */,
 				DA623F2022C1F86D00539516 /* 33.search-in-rotated-sorted-array.swift in Sources */,
 				DA623F2222C1F86D00539516 /* 69.sqrt-x.swift in Sources */,
