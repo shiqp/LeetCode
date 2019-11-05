@@ -43,7 +43,7 @@
  */
 
 // @lc code=start
-class Solution {
+class Solution43 {
     func multiply(_ num1: String, _ num2: String) -> String {
         if num1 == "0" || num2 == "0" {
             return "0"
