@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		DA19AAE9237127F500618379 /* 39.combination-sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA19AAE8237127F500618379 /* 39.combination-sum.swift */; };
+		DA19AAEB23713D8300618379 /* 40.combination-sum-ii.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA19AAEA23713D8300618379 /* 40.combination-sum-ii.swift */; };
 		DA3F0A8E2296405D004E7E09 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3F0A8D2296405D004E7E09 /* AppDelegate.swift */; };
 		DA3F0A902296405D004E7E09 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3F0A8F2296405D004E7E09 /* ViewController.swift */; };
 		DA3F0A932296405D004E7E09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA3F0A912296405D004E7E09 /* Main.storyboard */; };
@@ -60,6 +61,7 @@
 
 /* Begin PBXFileReference section */
 		DA19AAE8237127F500618379 /* 39.combination-sum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "39.combination-sum.swift"; sourceTree = SOURCE_ROOT; };
+		DA19AAEA23713D8300618379 /* 40.combination-sum-ii.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "40.combination-sum-ii.swift"; sourceTree = SOURCE_ROOT; };
 		DA3F0A8A2296405D004E7E09 /* LeetCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeetCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA3F0A8D2296405D004E7E09 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DA3F0A8F2296405D004E7E09 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -212,6 +214,7 @@
 				DA623F1922C1F7DD00539516 /* 26.remove-duplicates-from-sorted-array.swift */,
 				DA7309C823349F8B007B14F7 /* 31.next-permutation.swift */,
 				DA19AAE8237127F500618379 /* 39.combination-sum.swift */,
+				DA19AAEA23713D8300618379 /* 40.combination-sum-ii.swift */,
 				DA405BBB23332BD5003FAD52 /* 66.plus-one.swift */,
 			);
 			name = Array;
@@ -349,6 +352,7 @@
 				DA405BC323336CE3003FAD52 /* 23.merge-k-sorted-lists.swift in Sources */,
 				DAF23B3E232F8AC8000747D2 /* 5.longest-palindromic-substring.swift in Sources */,
 				DA623F1A22C1F7DD00539516 /* 26.remove-duplicates-from-sorted-array.swift in Sources */,
+				DA19AAEB23713D8300618379 /* 40.combination-sum-ii.swift in Sources */,
 				DA405BBA23332B36003FAD52 /* 58.length-of-last-word.swift in Sources */,
 				DA405BC123332D7F003FAD52 /* 22.generate-parentheses.swift in Sources */,
 				DA623F2322C1F86D00539516 /* 29.divide-two-integers.swift in Sources */,
