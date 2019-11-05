@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA19AAE9237127F500618379 /* 39.combination-sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA19AAE8237127F500618379 /* 39.combination-sum.swift */; };
 		DA3F0A8E2296405D004E7E09 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3F0A8D2296405D004E7E09 /* AppDelegate.swift */; };
 		DA3F0A902296405D004E7E09 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3F0A8F2296405D004E7E09 /* ViewController.swift */; };
 		DA3F0A932296405D004E7E09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA3F0A912296405D004E7E09 /* Main.storyboard */; };
@@ -58,6 +59,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DA19AAE8237127F500618379 /* 39.combination-sum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "39.combination-sum.swift"; sourceTree = SOURCE_ROOT; };
 		DA3F0A8A2296405D004E7E09 /* LeetCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeetCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA3F0A8D2296405D004E7E09 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DA3F0A8F2296405D004E7E09 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -209,6 +211,7 @@
 				DA623F1222C1F61A00539516 /* 18.4-sum.swift */,
 				DA623F1922C1F7DD00539516 /* 26.remove-duplicates-from-sorted-array.swift */,
 				DA7309C823349F8B007B14F7 /* 31.next-permutation.swift */,
+				DA19AAE8237127F500618379 /* 39.combination-sum.swift */,
 				DA405BBB23332BD5003FAD52 /* 66.plus-one.swift */,
 			);
 			name = Array;
@@ -352,6 +355,7 @@
 				DA3F0A902296405D004E7E09 /* ViewController.swift in Sources */,
 				DA8D3AAD2334E9EE00C4E39F /* 32.longest-valid-parentheses.swift in Sources */,
 				DA405BB8233327E1003FAD52 /* 1.two-sum.swift in Sources */,
+				DA19AAE9237127F500618379 /* 39.combination-sum.swift in Sources */,
 				DA7309C72333AE1B007B14F7 /* 30.substring-with-concatenation-of-all-words.swift in Sources */,
 				DA405BBE23332C79003FAD52 /* 67.add-binary.swift in Sources */,
 				DA623F2B22C214F000539516 /* 95.unique-binary-search-trees-ii.swift in Sources */,
