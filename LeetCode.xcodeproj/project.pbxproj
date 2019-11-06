@@ -51,6 +51,7 @@
 		DA623F2F22C221E600539516 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA623F2E22C221E600539516 /* TreeNode.swift */; };
 		DA623F3122C32DC400539516 /* 98.validate-binary-search-tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA623F3022C32DC400539516 /* 98.validate-binary-search-tree.swift */; };
 		DA67FE3B237275B7007FEE38 /* 45.jump-game-ii.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA67FE3A237275B7007FEE38 /* 45.jump-game-ii.swift */; };
+		DA67FE4E237294C8007FEE38 /* 46.permutations.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA67FE4D237294C8007FEE38 /* 46.permutations.swift */; };
 		DA7309C72333AE1B007B14F7 /* 30.substring-with-concatenation-of-all-words.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7309C62333AE1B007B14F7 /* 30.substring-with-concatenation-of-all-words.swift */; };
 		DA7309C923349F8B007B14F7 /* 31.next-permutation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7309C823349F8B007B14F7 /* 31.next-permutation.swift */; };
 		DA75A2EE23717212006C3B04 /* 43.multiply-strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA75A2ED23717212006C3B04 /* 43.multiply-strings.swift */; };
@@ -111,6 +112,7 @@
 		DA623F2E22C221E600539516 /* TreeNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeNode.swift; sourceTree = "<group>"; };
 		DA623F3022C32DC400539516 /* 98.validate-binary-search-tree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "98.validate-binary-search-tree.swift"; sourceTree = SOURCE_ROOT; };
 		DA67FE3A237275B7007FEE38 /* 45.jump-game-ii.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "45.jump-game-ii.swift"; sourceTree = SOURCE_ROOT; };
+		DA67FE4D237294C8007FEE38 /* 46.permutations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 46.permutations.swift; sourceTree = SOURCE_ROOT; };
 		DA7309C62333AE1B007B14F7 /* 30.substring-with-concatenation-of-all-words.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "30.substring-with-concatenation-of-all-words.swift"; sourceTree = SOURCE_ROOT; };
 		DA7309C823349F8B007B14F7 /* 31.next-permutation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "31.next-permutation.swift"; sourceTree = SOURCE_ROOT; };
 		DA75A2ED23717212006C3B04 /* 43.multiply-strings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "43.multiply-strings.swift"; sourceTree = SOURCE_ROOT; };
@@ -228,6 +230,7 @@
 				DA19AAEC2371554400618379 /* 41.first-missing-positive.swift */,
 				DA19AAEE23715BAD00618379 /* 42.trapping-rain-water.swift */,
 				DA67FE3A237275B7007FEE38 /* 45.jump-game-ii.swift */,
+				DA67FE4D237294C8007FEE38 /* 46.permutations.swift */,
 				DA405BBB23332BD5003FAD52 /* 66.plus-one.swift */,
 			);
 			name = Array;
@@ -366,6 +369,7 @@
 				DA4744DA2301A578007E0CB7 /* 101.symmetric-tree.swift in Sources */,
 				DA4CF0FF2331CC3800F38A43 /* 8.string-to-integer-atoi.swift in Sources */,
 				DA623F2122C1F86D00539516 /* 50.pow-x-n.swift in Sources */,
+				DA67FE4E237294C8007FEE38 /* 46.permutations.swift in Sources */,
 				DA405BB123323A42003FAD52 /* ListNode.swift in Sources */,
 				DA405BC323336CE3003FAD52 /* 23.merge-k-sorted-lists.swift in Sources */,
 				DAF23B3E232F8AC8000747D2 /* 5.longest-palindromic-substring.swift in Sources */,
