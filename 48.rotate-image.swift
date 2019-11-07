@@ -5,7 +5,7 @@
  */
 
 // @lc code=start
-class Solution {
+class Solution48 {
     func rotate(_ matrix: inout [[Int]]) {
         var length = matrix.count
         var i = 0
