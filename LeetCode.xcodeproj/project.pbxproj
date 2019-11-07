@@ -13,7 +13,7 @@
 		DA19AAEF23715BAD00618379 /* 42.trapping-rain-water.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA19AAEE23715BAD00618379 /* 42.trapping-rain-water.swift */; };
 		DA284C5423747E95002252F8 /* 48.rotate-image.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA284C5123747E95002252F8 /* 48.rotate-image.swift */; };
 		DA284C5523747E95002252F8 /* 49.group-anagrams.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA284C5223747E95002252F8 /* 49.group-anagrams.swift */; };
-		DA284C5623747E95002252F8 /* 36.valid-sudoku.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA284C5323747E95002252F8 /* 36.valid-sudoku.swift */; };
+		DA284C58237491FA002252F8 /* 36.valid-sudoku.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA284C57237491FA002252F8 /* 36.valid-sudoku.swift */; };
 		DA3F0A8E2296405D004E7E09 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3F0A8D2296405D004E7E09 /* AppDelegate.swift */; };
 		DA3F0A902296405D004E7E09 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3F0A8F2296405D004E7E09 /* ViewController.swift */; };
 		DA3F0A932296405D004E7E09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA3F0A912296405D004E7E09 /* Main.storyboard */; };
@@ -76,7 +76,7 @@
 		DA19AAEE23715BAD00618379 /* 42.trapping-rain-water.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "42.trapping-rain-water.swift"; sourceTree = SOURCE_ROOT; };
 		DA284C5123747E95002252F8 /* 48.rotate-image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "48.rotate-image.swift"; sourceTree = SOURCE_ROOT; };
 		DA284C5223747E95002252F8 /* 49.group-anagrams.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "49.group-anagrams.swift"; sourceTree = SOURCE_ROOT; };
-		DA284C5323747E95002252F8 /* 36.valid-sudoku.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "36.valid-sudoku.swift"; sourceTree = SOURCE_ROOT; };
+		DA284C57237491FA002252F8 /* 36.valid-sudoku.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "36.valid-sudoku.swift"; sourceTree = SOURCE_ROOT; };
 		DA3F0A8A2296405D004E7E09 /* LeetCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeetCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA3F0A8D2296405D004E7E09 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DA3F0A8F2296405D004E7E09 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -225,7 +225,7 @@
 		DA623F0E22C1F5F700539516 /* Array */ = {
 			isa = PBXGroup;
 			children = (
-				DA284C5323747E95002252F8 /* 36.valid-sudoku.swift */,
+				DA284C57237491FA002252F8 /* 36.valid-sudoku.swift */,
 				DA284C5123747E95002252F8 /* 48.rotate-image.swift */,
 				DA284C5223747E95002252F8 /* 49.group-anagrams.swift */,
 				DA405BB7233327E1003FAD52 /* 1.two-sum.swift */,
@@ -361,7 +361,7 @@
 				DA4744D92301A578007E0CB7 /* 100.same-tree.swift in Sources */,
 				DAA108D82333808F00B2B445 /* 24.swap-nodes-in-pairs.swift in Sources */,
 				DA623F2422C1F86D00539516 /* 34.find-first-and-last-position-of-element-in-sorted-array.swift in Sources */,
-				DA284C5623747E95002252F8 /* 36.valid-sudoku.swift in Sources */,
+				DA284C58237491FA002252F8 /* 36.valid-sudoku.swift in Sources */,
 				DAF23B3C232F8378000747D2 /* 3.longest-substring-without-repeating-characters.swift in Sources */,
 				DABD6E352373DBDB00F0EF66 /* 47.permutations-ii.swift in Sources */,
 				DA623F2D22C215AF00539516 /* 96.unique-binary-search-trees.swift in Sources */,

@@ -36,12 +36,12 @@
  */
 
 // @lc code=start
-class Solution {
+class Solution49 {
     func groupAnagrams(_ strs: [String]) -> [[String]] {
         var result = [[String]]()
         var records = [String]()
         var flag = false
-        
+
         for str in strs {
             let recordItem = String(str.sorted())
             flag = false
