@@ -85,9 +85,35 @@
 // @lc code=start
 class Solution36 {
     func isValidSudoku(_ board: [[Character]]) -> Bool {
-        for i in 0..<9 {
-            for j in 0..<9 {
+        var rowSet = Set<Character>()
+        var colSet = Set<Character>()
+        var blockSet = Set<Character>()
 
+        for i in 0..<9 {
+            rowSet.removeAll()
+            colSet.removeAll()
+            blockSet.removeAll()
+
+            for j in 0..<9 {
+                if board[i][j] != "." && rowSet.contains(board[i][j]) {
+                    return false
+                } else {
+                    rowSet.insert(board[i][j])
+                }
+
+                if board[j][i] != "." && colSet.contains(board[j][i]) {
+                    return false
+                } else {
+                    colSet.insert(board[j][i])
+                }
+
+                let x = i / 3 * 3 + j / 3
+                let y = i % 3 * 3 + j % 3
+                if board[x][y] != "." && blockSet.contains(board[x][y]) {
+                    return false
+                } else {
+                    blockSet.insert(board[x][y])
+                }
             }
         }
 
