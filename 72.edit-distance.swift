@@ -51,7 +51,7 @@
  */
 
 // @lc code=start
-class Solution {
+class Solution72 {
     func minDistance(_ word1: String, _ word2: String) -> Int {
         var dp = [[Int]](repeating: [Int](repeating: 0, count: word1.count + 1), count: word2.count + 1)
 

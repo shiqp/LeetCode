@@ -43,7 +43,26 @@
 // @lc code=start
 class Solution84 {
     func largestRectangleArea(_ heights: [Int]) -> Int {
-        return 0
+        var result = 0
+
+        var heights = heights
+        heights.append(0)
+
+        var stack = [Int]()
+        var i = 0
+        while i < heights.count {
+            if stack.isEmpty || heights[stack.last!] <= heights[i] {
+                stack.append(i)
+                i += 1
+                continue
+            }
+
+            let j = stack.removeLast()
+            let length = stack.isEmpty ? i : i - stack.last! - 1
+            result = max(result, heights[j] * length)
+        }
+
+        return result
     }
 }
 // @lc code=end
