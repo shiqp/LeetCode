@@ -54,7 +54,7 @@
  */
 
 // @lc code=start
-class Solution {
+class Solution89 {
     func grayCode(_ n: Int) -> [Int] {
         var result = [0]
         var sum = 1
