@@ -98,6 +98,7 @@
 		DACDC7E9251A0A5400AB66FA /* 90.subsets-ii.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACDC7E8251A0A5400AB66FA /* 90.subsets-ii.swift */; };
 		DACDC809251B45F700AB66FA /* 91.decode-ways.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACDC808251B45F700AB66FA /* 91.decode-ways.swift */; };
 		DACDC80D251B534300AB66FA /* 92.reverse-linked-list-ii.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACDC80C251B534300AB66FA /* 92.reverse-linked-list-ii.swift */; };
+		DACDC811251C282800AB66FA /* 93.restore-ip-addresses.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACDC810251C282700AB66FA /* 93.restore-ip-addresses.swift */; };
 		DAE0110022C4CEEE00A3FEB2 /* 99.recover-binary-search-tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE010FF22C4CEEE00A3FEB2 /* 99.recover-binary-search-tree.swift */; };
 		DAF23B3C232F8378000747D2 /* 3.longest-substring-without-repeating-characters.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF23B3B232F8378000747D2 /* 3.longest-substring-without-repeating-characters.swift */; };
 		DAF23B3E232F8AC8000747D2 /* 5.longest-palindromic-substring.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF23B3D232F8AC8000747D2 /* 5.longest-palindromic-substring.swift */; };
@@ -198,6 +199,7 @@
 		DACDC7E8251A0A5400AB66FA /* 90.subsets-ii.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "90.subsets-ii.swift"; sourceTree = SOURCE_ROOT; };
 		DACDC808251B45F700AB66FA /* 91.decode-ways.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "91.decode-ways.swift"; sourceTree = SOURCE_ROOT; };
 		DACDC80C251B534300AB66FA /* 92.reverse-linked-list-ii.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "92.reverse-linked-list-ii.swift"; sourceTree = SOURCE_ROOT; };
+		DACDC810251C282700AB66FA /* 93.restore-ip-addresses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "93.restore-ip-addresses.swift"; sourceTree = SOURCE_ROOT; };
 		DAE010FF22C4CEEE00A3FEB2 /* 99.recover-binary-search-tree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "99.recover-binary-search-tree.swift"; sourceTree = SOURCE_ROOT; };
 		DAF23B3B232F8378000747D2 /* 3.longest-substring-without-repeating-characters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "3.longest-substring-without-repeating-characters.swift"; sourceTree = SOURCE_ROOT; };
 		DAF23B3D232F8AC8000747D2 /* 5.longest-palindromic-substring.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "5.longest-palindromic-substring.swift"; sourceTree = SOURCE_ROOT; };
@@ -240,6 +242,7 @@
 				DA04B150250738F90023AFF5 /* 60.permutation-sequence.swift */,
 				DA04B14C250738A70023AFF5 /* 77.combinations.swift */,
 				DACDC7E5251A023300AB66FA /* 89.gray-code.swift */,
+				DACDC810251C282700AB66FA /* 93.restore-ip-addresses.swift */,
 			);
 			name = Backtracking;
 			sourceTree = "<group>";
@@ -490,6 +493,7 @@
 				DA04B13E250735850023AFF5 /* 76.minimum-window-substring.swift in Sources */,
 				DA4744D92301A578007E0CB7 /* 100.same-tree.swift in Sources */,
 				DAA108D82333808F00B2B445 /* 24.swap-nodes-in-pairs.swift in Sources */,
+				DACDC811251C282800AB66FA /* 93.restore-ip-addresses.swift in Sources */,
 				DACDC809251B45F700AB66FA /* 91.decode-ways.swift in Sources */,
 				DACDC7E9251A0A5400AB66FA /* 90.subsets-ii.swift in Sources */,
 				DA04B17325078A710023AFF5 /* 85.maximal-rectangle.swift in Sources */,

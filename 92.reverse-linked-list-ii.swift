@@ -37,7 +37,7 @@
  *     public init(_ val: Int, _ next: ListNode?) { self.val = val; self.next = next; }
  * }
  */
-class Solution {
+class Solution92 {
     func reverseBetween(_ head: ListNode?, _ m: Int, _ n: Int) -> ListNode? {
         if head == nil || m >= n {
             return head
