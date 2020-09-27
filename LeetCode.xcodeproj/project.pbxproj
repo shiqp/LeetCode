@@ -93,6 +93,7 @@
 		DAA108D82333808F00B2B445 /* 24.swap-nodes-in-pairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA108D72333808F00B2B445 /* 24.swap-nodes-in-pairs.swift */; };
 		DAA108DA2333850800B2B445 /* 25.reverse-nodes-in-k-group.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA108D92333850800B2B445 /* 25.reverse-nodes-in-k-group.swift */; };
 		DAA6CC25251DEEE400192EAD /* 103.binary-tree-zigzag-level-order-traversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA6CC24251DEEE400192EAD /* 103.binary-tree-zigzag-level-order-traversal.swift */; };
+		DAA6CC2A2520370100192EAD /* 104.maximum-depth-of-binary-tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA6CC292520370100192EAD /* 104.maximum-depth-of-binary-tree.swift */; };
 		DABD6E352373DBDB00F0EF66 /* 47.permutations-ii.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABD6E342373DBDB00F0EF66 /* 47.permutations-ii.swift */; };
 		DACDC7E22519FF4E00AB66FA /* 88.merge-sorted-array.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACDC7E12519FF4E00AB66FA /* 88.merge-sorted-array.swift */; };
 		DACDC7E6251A023300AB66FA /* 89.gray-code.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACDC7E5251A023300AB66FA /* 89.gray-code.swift */; };
@@ -196,6 +197,7 @@
 		DAA108D72333808F00B2B445 /* 24.swap-nodes-in-pairs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "24.swap-nodes-in-pairs.swift"; sourceTree = SOURCE_ROOT; };
 		DAA108D92333850800B2B445 /* 25.reverse-nodes-in-k-group.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "25.reverse-nodes-in-k-group.swift"; sourceTree = SOURCE_ROOT; };
 		DAA6CC24251DEEE400192EAD /* 103.binary-tree-zigzag-level-order-traversal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "103.binary-tree-zigzag-level-order-traversal.swift"; sourceTree = SOURCE_ROOT; };
+		DAA6CC292520370100192EAD /* 104.maximum-depth-of-binary-tree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "104.maximum-depth-of-binary-tree.swift"; sourceTree = SOURCE_ROOT; };
 		DABD6E342373DBDB00F0EF66 /* 47.permutations-ii.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "47.permutations-ii.swift"; sourceTree = SOURCE_ROOT; };
 		DACDC7E12519FF4E00AB66FA /* 88.merge-sorted-array.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "88.merge-sorted-array.swift"; sourceTree = SOURCE_ROOT; };
 		DACDC7E5251A023300AB66FA /* 89.gray-code.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "89.gray-code.swift"; sourceTree = SOURCE_ROOT; };
@@ -398,6 +400,7 @@
 				DA4744D72301A578007E0CB7 /* 101.symmetric-tree.swift */,
 				DA4744D52301A578007E0CB7 /* 102.binary-tree-level-order-traversal.swift */,
 				DAA6CC24251DEEE400192EAD /* 103.binary-tree-zigzag-level-order-traversal.swift */,
+				DAA6CC292520370100192EAD /* 104.maximum-depth-of-binary-tree.swift */,
 			);
 			name = Tree;
 			sourceTree = "<group>";
@@ -450,7 +453,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1020;
-				LastUpgradeCheck = 1020;
+				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = "Qingpu Shi";
 				TargetAttributes = {
 					DA3F0A892296405D004E7E09 = {
@@ -579,6 +582,7 @@
 				DA04B14D250738A70023AFF5 /* 77.combinations.swift in Sources */,
 				DA4744D82301A578007E0CB7 /* 102.binary-tree-level-order-traversal.swift in Sources */,
 				DA04B135250734E70023AFF5 /* 78.subsets.swift in Sources */,
+				DAA6CC2A2520370100192EAD /* 104.maximum-depth-of-binary-tree.swift in Sources */,
 				DA405BB6233326E4003FAD52 /* 19.remove-nth-node-from-end-of-list.swift in Sources */,
 				DA623F1522C1F61A00539516 /* 16.3-sum-closest.swift in Sources */,
 				DA75A2EE23717212006C3B04 /* 43.multiply-strings.swift in Sources */,
@@ -640,6 +644,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -701,6 +706,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
