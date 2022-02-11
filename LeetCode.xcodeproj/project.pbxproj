@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4AD552CE27B5448F006E3DE0 /* 28.实现-str-str.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD552CD27B5448F006E3DE0 /* 28.实现-str-str.swift */; };
+		4AD552D027B6A7A2006E3DE0 /* 35.搜索插入位置.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD552CF27B6A7A2006E3DE0 /* 35.搜索插入位置.swift */; };
 		DA04B12C250734E70023AFF5 /* 81.search-in-rotated-sorted-array-ii.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA04B11E250734E60023AFF5 /* 81.search-in-rotated-sorted-array-ii.swift */; };
 		DA04B12D250734E70023AFF5 /* 79.word-search.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA04B11F250734E70023AFF5 /* 79.word-search.swift */; };
 		DA04B12E250734E70023AFF5 /* 55.jump-game.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA04B120250734E70023AFF5 /* 55.jump-game.swift */; };
@@ -112,6 +114,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4AD552CD27B5448F006E3DE0 /* 28.实现-str-str.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "28.实现-str-str.swift"; sourceTree = SOURCE_ROOT; };
+		4AD552CF27B6A7A2006E3DE0 /* 35.搜索插入位置.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "35.搜索插入位置.swift"; sourceTree = SOURCE_ROOT; };
 		DA04B11E250734E60023AFF5 /* 81.search-in-rotated-sorted-array-ii.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "81.search-in-rotated-sorted-array-ii.swift"; sourceTree = SOURCE_ROOT; };
 		DA04B11F250734E70023AFF5 /* 79.word-search.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "79.word-search.swift"; sourceTree = SOURCE_ROOT; };
 		DA04B120250734E70023AFF5 /* 55.jump-game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "55.jump-game.swift"; sourceTree = SOURCE_ROOT; };
@@ -338,6 +342,7 @@
 				DA623F1E22C1F86D00539516 /* 29.divide-two-integers.swift */,
 				DA623F1B22C1F86D00539516 /* 33.search-in-rotated-sorted-array.swift */,
 				DA623F1F22C1F86D00539516 /* 34.find-first-and-last-position-of-element-in-sorted-array.swift */,
+				4AD552CF27B6A7A2006E3DE0 /* 35.搜索插入位置.swift */,
 				DA623F1C22C1F86D00539516 /* 50.pow-x-n.swift */,
 				DA623F1D22C1F86D00539516 /* 69.sqrt-x.swift */,
 			);
@@ -415,6 +420,7 @@
 				DA405BA723321C1B003FAD52 /* 13.roman-to-integer.swift */,
 				DA405BAB23322609003FAD52 /* 17.letter-combinations-of-a-phone-number.swift */,
 				DA405BC023332D7F003FAD52 /* 22.generate-parentheses.swift */,
+				4AD552CD27B5448F006E3DE0 /* 28.实现-str-str.swift */,
 				DA7309C62333AE1B007B14F7 /* 30.substring-with-concatenation-of-all-words.swift */,
 				DA75A2ED23717212006C3B04 /* 43.multiply-strings.swift */,
 				DA405BB923332B36003FAD52 /* 58.length-of-last-word.swift */,
@@ -538,6 +544,7 @@
 				DA405BAA23321C1B003FAD52 /* 12.integer-to-roman.swift in Sources */,
 				DAE0110022C4CEEE00A3FEB2 /* 99.recover-binary-search-tree.swift in Sources */,
 				DA04B12E250734E70023AFF5 /* 55.jump-game.swift in Sources */,
+				4AD552D027B6A7A2006E3DE0 /* 35.搜索插入位置.swift in Sources */,
 				DA870CC2251091F900FD5D55 /* 86.partition-list.swift in Sources */,
 				DA623F1622C1F61A00539516 /* 18.4-sum.swift in Sources */,
 				DA04B12D250734E70023AFF5 /* 79.word-search.swift in Sources */,
@@ -586,6 +593,7 @@
 				DA04B14D250738A70023AFF5 /* 77.combinations.swift in Sources */,
 				DA4744D82301A578007E0CB7 /* 102.binary-tree-level-order-traversal.swift in Sources */,
 				DA04B135250734E70023AFF5 /* 78.subsets.swift in Sources */,
+				4AD552CE27B5448F006E3DE0 /* 28.实现-str-str.swift in Sources */,
 				DAA6CC2A2520370100192EAD /* 104.maximum-depth-of-binary-tree.swift in Sources */,
 				DA405BB6233326E4003FAD52 /* 19.remove-nth-node-from-end-of-list.swift in Sources */,
 				DA623F1522C1F61A00539516 /* 16.3-sum-closest.swift in Sources */,
