@@ -41,6 +41,7 @@
 		DA19AAEB23713D8300618379 /* 40.combination-sum-ii.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA19AAEA23713D8300618379 /* 40.combination-sum-ii.swift */; };
 		DA19AAED2371554400618379 /* 41.first-missing-positive.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA19AAEC2371554400618379 /* 41.first-missing-positive.swift */; };
 		DA19AAEF23715BAD00618379 /* 42.trapping-rain-water.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA19AAEE23715BAD00618379 /* 42.trapping-rain-water.swift */; };
+		DA25981227C682D6008A5333 /* 1507.转变日期格式.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA25981127C682D5008A5333 /* 1507.转变日期格式.swift */; };
 		DA284C5423747E95002252F8 /* 48.rotate-image.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA284C5123747E95002252F8 /* 48.rotate-image.swift */; };
 		DA284C5523747E95002252F8 /* 49.group-anagrams.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA284C5223747E95002252F8 /* 49.group-anagrams.swift */; };
 		DA284C58237491FA002252F8 /* 36.valid-sudoku.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA284C57237491FA002252F8 /* 36.valid-sudoku.swift */; };
@@ -148,6 +149,7 @@
 		DA19AAEA23713D8300618379 /* 40.combination-sum-ii.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "40.combination-sum-ii.swift"; sourceTree = SOURCE_ROOT; };
 		DA19AAEC2371554400618379 /* 41.first-missing-positive.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "41.first-missing-positive.swift"; sourceTree = SOURCE_ROOT; };
 		DA19AAEE23715BAD00618379 /* 42.trapping-rain-water.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "42.trapping-rain-water.swift"; sourceTree = SOURCE_ROOT; };
+		DA25981127C682D5008A5333 /* 1507.转变日期格式.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1507.转变日期格式.swift"; sourceTree = SOURCE_ROOT; };
 		DA284C5123747E95002252F8 /* 48.rotate-image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "48.rotate-image.swift"; sourceTree = SOURCE_ROOT; };
 		DA284C5223747E95002252F8 /* 49.group-anagrams.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "49.group-anagrams.swift"; sourceTree = SOURCE_ROOT; };
 		DA284C57237491FA002252F8 /* 36.valid-sudoku.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "36.valid-sudoku.swift"; sourceTree = SOURCE_ROOT; };
@@ -429,6 +431,7 @@
 				DA04B13D250735850023AFF5 /* 71.simplify-path.swift */,
 				DA04B13A250735850023AFF5 /* 76.minimum-window-substring.swift */,
 				DAEBABFC2562627300D16357 /* 87.scramble-string.swift */,
+				DA25981127C682D5008A5333 /* 1507.转变日期格式.swift */,
 			);
 			name = String;
 			sourceTree = "<group>";
@@ -534,6 +537,7 @@
 				DA284C5423747E95002252F8 /* 48.rotate-image.swift in Sources */,
 				DA04B130250734E70023AFF5 /* 75.sort-colors.swift in Sources */,
 				DA623F0C22C1F55100539516 /* 146.lru-cache.swift in Sources */,
+				DA25981227C682D6008A5333 /* 1507.转变日期格式.swift in Sources */,
 				DA19AAED2371554400618379 /* 41.first-missing-positive.swift in Sources */,
 				DA623F3122C32DC400539516 /* 98.validate-binary-search-tree.swift in Sources */,
 				DA623F2022C1F86D00539516 /* 33.search-in-rotated-sorted-array.swift in Sources */,

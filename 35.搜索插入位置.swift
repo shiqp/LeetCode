@@ -68,7 +68,7 @@
  */
 
 // @lc code=start
-class Solution {
+class Solution35 {
     func searchInsert(_ nums: [Int], _ target: Int) -> Int {
         if nums.count == 0 {
             return 0
